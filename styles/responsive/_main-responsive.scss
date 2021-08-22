@@ -1,0 +1,109 @@
+
+
+@mixin menu($breakpoint-desktop) {
+    
+    @media (max-width: $breakpoint-desktop) {
+
+        .wrapper {
+            header {
+                min-height: 60px;
+                border-bottom: 1px solid #636466;
+
+                .navbar {
+
+
+
+                    .menu {
+
+                        @include base-menu(); 
+
+                        &--active {
+                            opacity: 1;
+                            visibility: visible;
+                            transform: translateX(0);
+                            transition: 0.3s ease-out;
+                        }
+                        
+                    }
+
+                    .icon-menu {
+                
+                        display: flex;
+                        flex-direction: column;
+                        width: 40px;
+            
+                        cursor: pointer;
+            
+                        &__bar {
+                            @include hamburger-icon(35px, 3px, #333);
+            
+                            &--close {
+                                @include close-icon();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@mixin tablet($breakpoint-desktop) {
+    
+    @media (min-width: $breakpoint-desktop) {
+
+        .wrapper {
+
+            .hero{
+                width: 75%;
+            }
+        }
+
+        main {
+
+            .img-section {
+                height: 500px;
+
+                img {
+                    height: inherit;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+@mixin desktop($breakpoint-desktop) {
+    
+    @media (min-width: $breakpoint-desktop) {
+
+        .wrapper {
+
+            .hero{
+                width: 50%;
+
+                &__title {
+                    font-size: 5rem;
+                }
+            }
+        }
+
+        main {
+
+            @include split-screen-desk(info-section, img-section, flex-start);
+            column-gap: 0.5rem;
+
+            .img-section {
+                height: 500px;
+                margin-bottom: 0;
+            }
+           
+        }
+
+    }
+}
