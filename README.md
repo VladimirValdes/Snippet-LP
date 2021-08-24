@@ -1,29 +1,27 @@
+##  💠 The Challenge
 
-# Welcome to Codewell! 👋
+    Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+    Your users should be able to:
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+    ✅ View the optimal layout for the site depending on their device's screen size
 
-### I've completed the challenge, now what?
+## 💠 Built with
 
-We recommend using one of these two websites to deploy your projects
+    ✅ HTML
+    ✅ SCSS
+         - Flexbox
+         - Grid Css
+    ✅ JavaScript
+    ✅ BEM (block__element--modifier)
+    ✅ Mobile-first workflow
+ 
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+## 💠 What I Learn
 
+ ✅ I learned how to avoid Layout Flickering On Browser Resize that is common in hamburger menu animations
+   I read this article [Layout Flickering On Browser Resize](https://ishadeed.com/article/layout-flickering/) by [Ahmad](https://ishadeed.com/) to fix it.
 
-### Submit your solution to Codewell
-
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
-
-### Join our community on Slack
-
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
-
-### Fonts Used
-
-https://fonts.google.com/specimen/Poppins
+ ✅ Another thing that I learned was about interpolation in SASS I read a part of SASS documentation you can check [here](https://sass-lang.com/documentation/interpolation);
+    
